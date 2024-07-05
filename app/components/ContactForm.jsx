@@ -66,7 +66,7 @@ const ContactForm = () => {
         <div className='flex flex-col items-center space-y-4 text-center'>
           <p className='text-green-600 font-semibold'>{submited}</p>
           <div className='w-[200px] xl:w-[250px] aspect-square rounded-xl'>
-            <Image src={cat} className='w-full h-full rounded-xl object-center object-cover'/>
+            <Image src={cat} className='w-full h-full rounded-xl object-center object-cover' alt='Cat smile'/>
           </div>
         </div>
         : null}

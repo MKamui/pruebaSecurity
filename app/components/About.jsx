@@ -27,34 +27,34 @@ const About = () => {
         </p>
         <div className="w-full flex flex-wrap justify-between items-center animate-bounce">
           <div className="w-[80px] aspect-square">
-            <Image src={aws} className="w-full h-full rounded-xl object-center object-cover"/>
+            <Image src={aws} className="w-full h-full rounded-xl object-center object-cover" alt="AWS"/>
           </div>
           <div className="w-[80px] aspect-square">
-            <Image src={firebase} className="w-full h-full rounded-xl object-center object-cover"/>
+            <Image src={firebase} className="w-full h-full rounded-xl object-center object-cover" alt="Firebase"/>
           </div>
           <div className="w-[80px] aspect-square">
-            <Image src={javascript} className="w-full h-full rounded-xl object-center object-cover"/>
+            <Image src={javascript} className="w-full h-full rounded-xl object-center object-cover" alt="JS"/>
           </div>
           <div className="w-[80px] aspect-square">
-            <Image src={mongo} className="w-full h-full rounded-xl object-center object-cover"/>
+            <Image src={mongo} className="w-full h-full rounded-xl object-center object-cover" alt="Mongo"/>
           </div>
           <div className="w-[80px] aspect-square">
-            <Image src={nextjs} className="w-full h-full rounded-xl object-center object-cover"/>
+            <Image src={nextjs} className="w-full h-full rounded-xl object-center object-cover" alt="NextJS"/>
           </div>
           <div className="w-[80px] aspect-square">
-            <Image src={node} className="w-full h-full rounded-xl object-center object-cover"/>
+            <Image src={node} className="w-full h-full rounded-xl object-center object-cover" alt="Node"/>
           </div>
           <div className="w-[80px] aspect-square">
-            <Image src={postgres} className="w-full h-full rounded-xl object-center object-cover"/>
+            <Image src={postgres} className="w-full h-full rounded-xl object-center object-cover" alt="Postgres"/>
           </div>
           <div className="w-[80px] aspect-square">
-            <Image src={react} className="w-full h-full rounded-xl object-center object-cover"/>
+            <Image src={react} className="w-full h-full rounded-xl object-center object-cover" alt="React"/>
           </div>
           <div className="w-[80px] aspect-square">
-            <Image src={redux} className="w-full h-full rounded-xl object-center object-cover"/>
+            <Image src={redux} className="w-full h-full rounded-xl object-center object-cover" alt="Redux"/>
           </div>
           <div className="w-[80px] aspect-square">
-            <Image src={tailwind} className="w-full h-full rounded-xl object-center object-cover"/>
+            <Image src={tailwind} className="w-full h-full rounded-xl object-center object-cover" alt="Tailwind"/>
           </div>
         </div>
       </div>
